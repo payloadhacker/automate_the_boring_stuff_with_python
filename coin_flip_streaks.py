@@ -10,7 +10,7 @@ for experiment_num in range(0,10000):
          if current_streak == 0 or current_streak ==6:
             streak_found = True
             
-            break      1  
+            break 
     if streak_found:
         num_streaks += 1
 
